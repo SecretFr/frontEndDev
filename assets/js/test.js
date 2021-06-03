@@ -37,3 +37,7 @@ function minCheck(i){
     if(i<10) {i = "0" + i};
     return i;
 }
+
+var cookies = document.cookie;
+console.log(cookies);
+document.getElementById("cookies").innerHTML = cookies;
