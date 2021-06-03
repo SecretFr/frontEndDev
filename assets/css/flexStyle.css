@@ -44,3 +44,7 @@
       flex-direction: column-reverse;
     }
   }
+
+  #time {
+    text-align: center;
+  }
